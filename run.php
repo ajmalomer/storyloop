@@ -18,7 +18,6 @@ echo "[-] ============ Auto Views Story ============ [-]\n";
 echo "[-] =========== Made by @theaxe.id =========== [-]\n\n";
 echo "[?] Input your API Key : ";
 $apikey 	= trim(fgets(STDIN, 1024));
-$apikey		= 'lJBSdvyFOJae9CiVpW7sZFbGFh9s9QC9HulWXLB9zvfrAXzyRAHAYzvMIuN6WbKE';
 $check_Api	= basic_cURL($apihost.'/api/v3/checkUser?apikey='.$apikey);
 $check_Api	= json_decode($check_Api[1], true);
 if($check_Api['status'] == 'ok'){
