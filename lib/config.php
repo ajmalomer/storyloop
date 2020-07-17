@@ -7,7 +7,7 @@ error_reporting(0);
 Jika akun terkena feedback_required tenang, tinggal tunggu 24 jam ntar pulih lagi
 @theaxe.id
 */
-$apihost		= 'http://localhost/axemedia-new';
+$apihost		= 'https://nico.veongram.com';
 $date 			= date("Y-m-d");
 $time 			= date("H:i:s");
 ?>
